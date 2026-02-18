@@ -1,0 +1,74 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Swap illustrated spice images for photographic generated assets",
+  "requirements": [
+    {
+      "id": "REQ-16",
+      "summary": "Update Products section product image URLs to use new photographic spice assets served from /assets/generated.",
+      "acceptanceCriteria": [
+        "Products grid no longer uses any of these illustration assets: /assets/generated/spice-illustration-chili.dim_800x600.png, /assets/generated/spice-illustration-turmeric.dim_800x600.png, /assets/generated/spice-illustration-assorted.dim_800x600.png",
+        "Each product card renders a photographic image (object-cover) with no broken images in the Products section",
+        "All product images are served as static assets from frontend/public/assets/generated (referenced via /assets/generated/...)"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/public/assets/generated/spice-photo-red-chili.dim_800x600.png",
+          "operation": "create",
+          "description": "Add the generated photographic close-up image asset for dried red chili peppers as a static public asset."
+        },
+        {
+          "path": "frontend/public/assets/generated/spice-photo-turmeric.dim_800x600.png",
+          "operation": "create",
+          "description": "Add the generated photographic close-up image asset for turmeric (roots or powder) as a static public asset."
+        },
+        {
+          "path": "frontend/public/assets/generated/spice-photo-cumin.dim_800x600.png",
+          "operation": "create",
+          "description": "Add the generated photographic close-up image asset for cumin seeds as a static public asset."
+        },
+        {
+          "path": "frontend/public/assets/generated/spice-photo-coriander.dim_800x600.png",
+          "operation": "create",
+          "description": "Add the generated photographic close-up image asset for coriander seeds as a static public asset."
+        },
+        {
+          "path": "frontend/public/assets/generated/spice-photo-black-pepper.dim_800x600.png",
+          "operation": "create",
+          "description": "Add the generated photographic close-up image asset for black peppercorns as a static public asset."
+        },
+        {
+          "path": "frontend/public/assets/generated/spice-photo-cardamom.dim_800x600.png",
+          "operation": "create",
+          "description": "Add the generated photographic close-up image asset for green cardamom pods as a static public asset."
+        },
+        {
+          "path": "frontend/src/components/site/sections/ProductsSection.tsx",
+          "operation": "modify",
+          "description": "Replace each product's image URL to point to the corresponding photographic static asset under /assets/generated (use: /assets/generated/spice-photo-red-chili.dim_800x600.png, /assets/generated/spice-photo-turmeric.dim_800x600.png, /assets/generated/spice-photo-cumin.dim_800x600.png, /assets/generated/spice-photo-coriander.dim_800x600.png, /assets/generated/spice-photo-black-pepper.dim_800x600.png, /assets/generated/spice-photo-cardamom.dim_800x600.png). Ensure no remaining references to the illustration files in this section."
+        }
+      ]
+    },
+    {
+      "id": "REQ-17",
+      "summary": "Replace the Hero section right-side illustration with a photographic spices image while keeping layout/styling unchanged.",
+      "acceptanceCriteria": [
+        "Hero section’s right-side image is photographic (not the illustration file /assets/generated/spice-illustration-assorted.dim_800x600.png)",
+        "Hero section layout and responsiveness remain unchanged (image still appears on lg+ only, same sizing/rounded corners/shadow)",
+        "No broken image links in the hero section"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/public/assets/generated/spice-photo-assorted.dim_800x600.png",
+          "operation": "create",
+          "description": "Add the generated photographic assortment image asset (premium spices in bowls on a neutral background) as a static public asset."
+        },
+        {
+          "path": "frontend/src/components/site/sections/HeroSection.tsx",
+          "operation": "modify",
+          "description": "Update the hero right-side image src to /assets/generated/spice-photo-assorted.dim_800x600.png, preserving existing layout, responsiveness (lg+ only), and styling (rounded corners/shadow). Do not change the hero background image."
+        }
+      ]
+    }
+  ]
+}

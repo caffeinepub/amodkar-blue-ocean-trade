@@ -1,0 +1,70 @@
+{
+  "kind": "coverage_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-18T04:00:18.575Z",
+  "sources": {
+    "buildRequest": true,
+    "implementationPlan": true
+  },
+  "requirements": {
+    "total": 2,
+    "implemented": 2,
+    "items": [
+      {
+        "id": "REQ-16",
+        "summary": "Replace the illustrated spice images used in the Products section with real (photographic) spice images, by updating the product image URLs in frontend/src/components/site/sections/ProductsSection.tsx to point to the new generated photo assets in /assets/generated.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/public/assets/generated/spice-photo-red-chili.dim_800x600.png",
+          "frontend/public/assets/generated/spice-photo-turmeric.dim_800x600.png",
+          "frontend/public/assets/generated/spice-photo-cumin.dim_800x600.png",
+          "frontend/public/assets/generated/spice-photo-coriander.dim_800x600.png",
+          "frontend/public/assets/generated/spice-photo-black-pepper.dim_800x600.png",
+          "frontend/public/assets/generated/spice-photo-cardamom.dim_800x600.png",
+          "frontend/src/components/site/sections/ProductsSection.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/public/assets/generated/spice-photo-red-chili.dim_800x600.png",
+          "frontend/public/assets/generated/spice-photo-turmeric.dim_800x600.png",
+          "frontend/public/assets/generated/spice-photo-cumin.dim_800x600.png",
+          "frontend/public/assets/generated/spice-photo-coriander.dim_800x600.png",
+          "frontend/public/assets/generated/spice-photo-black-pepper.dim_800x600.png",
+          "frontend/public/assets/generated/spice-photo-cardamom.dim_800x600.png",
+          "frontend/src/components/site/sections/ProductsSection.tsx"
+        ]
+      },
+      {
+        "id": "REQ-17",
+        "summary": "Replace the illustrated hero-side image in frontend/src/components/site/sections/HeroSection.tsx (currently /assets/generated/spice-illustration-assorted.dim_800x600.png) with a real (photographic) spices image asset in /assets/generated while keeping the existing layout and styling intact.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/public/assets/generated/spice-photo-assorted.dim_800x600.png",
+          "frontend/src/components/site/sections/HeroSection.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/public/assets/generated/spice-photo-assorted.dim_800x600.png",
+          "frontend/src/components/site/sections/HeroSection.tsx"
+        ]
+      }
+    ]
+  },
+  "changedFiles": [
+    "build-request.json",
+    "feature_evidence.json",
+    "frontend-file-summaries.txt",
+    "frontend-implementation-plan.json",
+    "frontend/public/assets/generated/spice-photo-assorted.dim_800x600.png",
+    "frontend/public/assets/generated/spice-photo-black-pepper.dim_800x600.png",
+    "frontend/public/assets/generated/spice-photo-cardamom.dim_800x600.png",
+    "frontend/public/assets/generated/spice-photo-coriander.dim_800x600.png",
+    "frontend/public/assets/generated/spice-photo-cumin.dim_800x600.png",
+    "frontend/public/assets/generated/spice-photo-red-chili.dim_800x600.png",
+    "frontend/public/assets/generated/spice-photo-turmeric.dim_800x600.png",
+    "frontend/src/components/site/sections/HeroSection.tsx",
+    "frontend/src/components/site/sections/ProductsSection.tsx",
+    "project_state.json",
+    "scratch/component-selection.json",
+    "spec.md",
+    "spec_vs_diff_report.json"
+  ]
+}

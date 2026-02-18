@@ -1,0 +1,75 @@
+{
+  "kind": "build_request",
+  "title": "Replace spice illustrations with real photographic spice images",
+  "projectName": "Amodkar Blue Ocean Trade",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-16",
+      "text": "Replace the illustrated spice images used in the Products section with real (photographic) spice images, by updating the product image URLs in frontend/src/components/site/sections/ProductsSection.tsx to point to the new generated photo assets in /assets/generated.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-3"
+        ],
+        "quotes": [
+          "can you change spices pictures to real spices images"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Products grid no longer uses any of these illustration assets: /assets/generated/spice-illustration-chili.dim_800x600.png, /assets/generated/spice-illustration-turmeric.dim_800x600.png, /assets/generated/spice-illustration-assorted.dim_800x600.png",
+        "Each product card renders a photographic image (object-cover) with no broken images in the Products section",
+        "All product images are served as static assets from frontend/public/assets/generated (referenced via /assets/generated/...)"
+      ]
+    },
+    {
+      "id": "REQ-17",
+      "text": "Replace the illustrated hero-side image in frontend/src/components/site/sections/HeroSection.tsx (currently /assets/generated/spice-illustration-assorted.dim_800x600.png) with a real (photographic) spices image asset in /assets/generated while keeping the existing layout and styling intact.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-3"
+        ],
+        "quotes": [
+          "can you change spices pictures to real spices images"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Hero section’s right-side image is photographic (not the illustration file /assets/generated/spice-illustration-assorted.dim_800x600.png)",
+        "Hero section layout and responsiveness remain unchanged (image still appears on lg+ only, same sizing/rounded corners/shadow)",
+        "No broken image links in the hero section"
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not route images through the backend; images must remain static frontend assets under frontend/public/assets/generated and referenced via /assets/generated/...",
+    "Keep the existing premium/classy visual theme intact (no unrelated layout or typography changes)."
+  ],
+  "nonGoals": [
+    "Changing product names/descriptions or adding/removing products in the Products section",
+    "Changing the hero background image (/assets/generated/spice-hero-background.dim_1920x1080.png) unless required for a direct spice-photo replacement request",
+    "Any backend changes (no Motoko/state changes needed for image swaps)"
+  ],
+  "imageRequirements": {
+    "required": [
+      "Photographic close-up of dried red chili peppers (spice-photo-red-chili.dim_800x600.png)",
+      "Photographic close-up of turmeric (roots or powder) with warm golden tones (spice-photo-turmeric.dim_800x600.png)",
+      "Photographic close-up of cumin seeds (spice-photo-cumin.dim_800x600.png)",
+      "Photographic close-up of coriander seeds (spice-photo-coriander.dim_800x600.png)",
+      "Photographic close-up of black peppercorns (spice-photo-black-pepper.dim_800x600.png)",
+      "Photographic close-up of green cardamom pods (spice-photo-cardamom.dim_800x600.png)",
+      "Photographic assortment of premium spices in bowls on a neutral background (spice-photo-assorted.dim_800x600.png)"
+    ],
+    "edits": []
+  },
+  "userProfileUpdate": {
+    "goalsToAdd": [],
+    "goalsToRemove": [],
+    "preferencesToAdd": [],
+    "preferencesToRemove": [],
+    "miscToAdd": [],
+    "miscToRemove": [],
+    "fieldsToSet": {},
+    "fieldsToDelete": []
+  }
+}

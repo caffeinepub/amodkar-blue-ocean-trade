@@ -1,0 +1,18 @@
+{
+  "frontend/src/index.css": "Global styles with enhanced warm earthy OKLCH color palette featuring stronger contrast, bolder typography (weight 700-800 for headings), and premium component utilities with explicit CSS properties instead of @apply with opacity modifiers to avoid build errors.",
+  "frontend/tailwind.config.js": "Tailwind configuration extended with premium shadow tokens (premium, premium-lg, header), additional border radius values (xl, 2xl), border-subtle color token, and refined warm color system mapping.",
+  "frontend/index.html": "HTML entry point with SEO meta tags for Amodkar Blue Ocean Trade spice exporter and Google Fonts preconnect links.",
+  "frontend/src/App.tsx": "Main application component rendering the complete single-page site with Header, Hero, About, Mission, Products, Quality, Contact sections, and Footer.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for fetching business profile and submitting inquiries to the backend with proper error handling and cache invalidation.",
+  "frontend/src/components/site/Header.tsx": "Fixed header with logo, business name, responsive navigation menu including Mission link, premium scrolled state with backdrop blur and refined border/shadow, and enhanced hover states.",
+  "frontend/src/components/site/Footer.tsx": "Footer with company info, quick links including Mission, social media icons, copyright notice, and Caffeine.ai attribution with UTM tracking.",
+  "frontend/src/components/site/Section.tsx": "Reusable section wrapper component with increased vertical spacing (py-20 to py-28) and enhanced muted background opacity for better contrast.",
+  "frontend/src/components/site/sections/HeroSection.tsx": "Hero section with bolder typography, richer background overlay, impactful headline/subheadline styling, premium CTA buttons, and photographic assorted spices image on the right side (visible on large screens).",
+  "frontend/src/components/site/sections/AboutSection.tsx": "About section with larger heading typography (text-6xl), premium surface cards with refined icon chips (14x14 rounded-xl), and consistent shadow/border treatments.",
+  "frontend/src/components/site/sections/ProductsSection.tsx": "Products section displaying six spice products (Red Chili, Turmeric, Cumin, Coriander, Black Pepper, Cardamom) in a responsive grid layout with photographic images and descriptions.",
+  "frontend/src/components/site/ProductCard.tsx": "Reusable product card component with premium surface treatment, refined hover effects (subtle scale), and bolder typography using shared utility classes.",
+  "frontend/src/components/site/sections/QualityExportsSection.tsx": "Quality and export excellence section with bolder headings, premium icon chips, enhanced stats display using premium-stat utility class, and refined surface card with increased padding.",
+  "frontend/src/components/site/sections/ContactSection.tsx": "Contact section displaying business profile contact details with WhatsApp icon and wa.me link, email with mailto link, location, business hours panel, and inquiry form.",
+  "frontend/src/components/site/InquiryForm.tsx": "Contact inquiry form with premium focus rings, refined input borders using border-border-subtle class, enhanced alert styling, and bolder button treatment with premium shadows.",
+  "frontend/src/components/site/sections/MissionSection.tsx": "Mission section component displaying the company's mission statement and four core values (Quality Assurance, Global Reach, Reliability, Partnership) in a responsive grid with icons and descriptions."
+}

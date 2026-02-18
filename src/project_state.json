@@ -1,0 +1,179 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 9,
+  "summary": "Website project for Amodkar Blue Ocean Trade (spice exporter): build a simple, classy informational site so buyers searching the business name can find credible information.",
+  "architectural_notes": [
+    "Contact section must display: amodkarblueoceantrade@gmail.com and WhatsApp +91 982078 7730."
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "imageRequirements": "## Required Images\n- Photographic close-up of dried red chili peppers (spice-photo-red-chili.dim_800x600.png)\n- Photographic close-up of turmeric (roots or powder) with warm golden tones (spice-photo-turmeric.dim_800x600.png)\n- Photographic close-up of cumin seeds (spice-photo-cumin.dim_800x600.png)\n- Photographic close-up of coriander seeds (spice-photo-coriander.dim_800x600.png)\n- Photographic close-up of black peppercorns (spice-photo-black-pepper.dim_800x600.png)\n- Photographic close-up of green cardamom pods (spice-photo-cardamom.dim_800x600.png)\n- Photographic assortment of premium spices in bowls on a neutral background (spice-photo-assorted.dim_800x600.png)",
+  "existing_features": [
+    {
+      "id": "feature-create-a-multi-section-informational-website-for-the-spice-exporter-business-amodkar-blue-ocean-trade-that-presents-credible-buyer-facing-information-and-is-suitable-for-brand-name-searches",
+      "title": "Create a multi-section informational website for the spice exporter business \"Amodkar Blue Ocean Trade\" that presents credible buyer-facing information and is suitable for brand-name searches.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-one-coherent-visual-theme-that-feels-simple-and-classy-avoid-blue-purple-including-consistent-typography-spacing-and-component-styling-across-the-site",
+      "title": "Apply one coherent visual theme that feels simple and classy (avoid blue/purple), including consistent typography, spacing, and component styling across the site.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-basic-seo-focused-page-structure-for-brand-discoverability-including-correct-page-title-meta-description-and-semantic-headings-that-contain-the-business-name-and-core-offering-spice-exporter",
+      "title": "Implement basic SEO-focused page structure for brand discoverability, including correct page title, meta description, and semantic headings that contain the business name and core offering (spice exporter).",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-products-section-that-communicates-the-product-category-spices-and-showcases-a-short-list-of-example-spice-items-with-a-clean-card-grid-layout",
+      "title": "Add a \"Products\" section that communicates the product category (spices) and showcases a short list of example spice items with a clean card/grid layout.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-contact-section-with-clear-buyer-contact-details-and-a-lightweight-inquiry-form-that-stores-inquiries-in-the-app-no-external-email-sms-integrations",
+      "title": "Add a \"Contact\" section with clear buyer contact details and a lightweight inquiry form that stores inquiries in the app (no external email/SMS integrations).",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-generated-brand-appropriate-static-images-logo-and-a-subtle-spice-themed-hero-visual-and-render-them-from-the-frontend-as-static-assets-not-served-through-the-backend",
+      "title": "Add generated brand-appropriate static images (logo and a subtle spice-themed hero visual) and render them from the frontend as static assets (not served through the backend).",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-global-visual-theme-to-feel-more-bold-and-classy-while-keeping-a-premium-simple-aesthetic-no-blue-purple-by-increasing-contrast-sharpening-typography-hierarchy-and-refining-the-warm-earthy-palette-via-css-variables-and-tailwind-theme-tokens",
+      "title": "Update the global visual theme to feel more bold and classy while keeping a premium, simple aesthetic (no blue/purple), by increasing contrast, sharpening typography hierarchy, and refining the warm/earthy palette via CSS variables and Tailwind theme tokens.",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-make-the-header-navigation-feel-more-premium-and-decisive-by-improving-its-scrolled-state-background-shadow-border-blur-and-link-button-emphasis-and-ensuring-mobile-menu-styling-matches-the-updated-bold-classy-theme",
+      "title": "Make the header/navigation feel more premium and decisive by improving its scrolled state (background, shadow, border/blur, and link/button emphasis) and ensuring mobile menu styling matches the updated bold/classy theme.",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-upgrade-the-hero-section-styling-to-feel-more-bold-and-classy-by-refining-the-background-overlay-gradient-increasing-headline-impact-and-making-primary-secondary-ctas-look-more-premium-button-weight-outline-treatment-spacing",
+      "title": "Upgrade the hero section styling to feel more bold and classy by refining the background overlay/gradient, increasing headline impact, and making primary/secondary CTAs look more premium (button weight, outline treatment, spacing).",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-make-cards-and-section-blocks-across-products-about-quality-contact-feel-more-bold-and-classy-by-refining-shadows-borders-radii-spacing-and-hover-states-consistently-e-g-productcard-about-feature-cards-quality-stats-block-contact-info-blocks",
+      "title": "Make cards and section blocks across Products/About/Quality/Contact feel more bold and classy by refining shadows, borders, radii, spacing, and hover states consistently (e.g., ProductCard, About feature cards, Quality stats block, Contact info blocks).",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-new-mission-section-to-the-homepage-with-an-english-mission-statement-drafted-for-amodkar-blue-ocean-trade-spice-exporter-matching-the-existing-premium-classy-theme-and-using-a-consistent-section-layout",
+      "title": "Add a new \"Mission\" section to the homepage with an English mission statement drafted for Amodkar Blue Ocean Trade (spice exporter), matching the existing premium/classy theme and using a consistent Section layout.",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-mission-to-the-site-navigation-so-users-can-scroll-to-the-mission-section-from-both-desktop-and-mobile-header-navigation-and-include-it-in-the-footer-quick-links",
+      "title": "Add \"Mission\" to the site navigation so users can scroll to the Mission section from both desktop and mobile header navigation, and include it in the footer quick links.",
+      "reqIds": [
+        "REQ-13"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-contact-section-ui-to-display-the-provided-buyer-contact-details-from-the-business-profile-and-present-the-whatsapp-number-as-a-whatsapp-contact-method-label-and-link-rather-than-a-generic-placeholder-phone-value",
+      "title": "Update the Contact section UI to display the provided buyer contact details from the business profile, and present the WhatsApp number as a WhatsApp contact method (label and link) rather than a generic placeholder phone value.",
+      "reqIds": [
+        "REQ-15"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-replace-the-illustrated-spice-images-used-in-the-products-section-with-real-photographic-spice-images-by-updating-the-product-image-urls-in-frontend-src-components-site-sections-productssection-tsx-to-point-to-the-new-generated-photo-assets-in-assets-generated",
+      "title": "Replace the illustrated spice images used in the Products section with real (photographic) spice images, by updating the product image URLs in frontend/src/components/site/sections/ProductsSection.tsx to point to the new generated photo assets in /assets/generated.",
+      "reqIds": [
+        "REQ-16"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-replace-the-illustrated-hero-side-image-in-frontend-src-components-site-sections-herosection-tsx-currently-assets-generated-spice-illustration-assorted-dim-800x600-png-with-a-real-photographic-spices-image-asset-in-assets-generated-while-keeping-the-existing-layout-and-styling-intact",
+      "title": "Replace the illustrated hero-side image in frontend/src/components/site/sections/HeroSection.tsx (currently /assets/generated/spice-illustration-assorted.dim_800x600.png) with a real (photographic) spices image asset in /assets/generated while keeping the existing layout and styling intact.",
+      "reqIds": [
+        "REQ-17"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Create a simple, classy informational website for Amodkar Blue Ocean Trade (spice exporter) focused on providing buyers good information and improving brand discoverability when searching the business name.",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-7",
+      "summary": "Implement a minimal Motoko backend that exposes public query endpoints for the website’s public business profile content and an update endpoint for storing buyer inquiries.",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-8",
+      "summary": "Update the site’s visual design to feel more bold and classy while keeping the overall premium, simple aesthetic.",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-9",
+      "summary": "Add a \"Mission\" section (draft mission statement) and populate the Contact section with the provided buyer contact details (amodkarblueoceantrade@gmail.com, WhatsApp +91 9820787730).",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-12",
+      "summary": "Update the backend business profile default data to reflect the real business identity and contact details for Amodkar Blue Ocean Trade, including email \"amodkarblueoceantrade@gmail.com\" and WhatsApp number \"+91 9820787730\" (stored in the existing phone field if no dedicated WhatsApp field exists).",
+      "reqIds": [
+        "REQ-14"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-13",
+      "summary": "Replace the current spice pictures/illustrations with real (photographic) spice images in the Products/Spices sections while keeping the site’s classy visual theme.",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Amodkar Blue Ocean Trade",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

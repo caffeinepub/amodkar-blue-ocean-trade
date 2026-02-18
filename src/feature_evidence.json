@@ -1,0 +1,41 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-replace-the-illustrated-spice-images-used-in-the-products-section-with-real-photographic-spice-images-by-updating-the-product-image-urls-in-frontend-src-components-site-sections-productssection-tsx-to-point-to-the-new-generated-photo-assets-in-assets-generated",
+      "featureTitle": "Replace the illustrated spice images used in the Products section with real (photographic) spice images, by updating the product image URLs in frontend/src/components/site/sections/ProductsSection.tsx to point to the new generated photo assets in /assets/generated.",
+      "files": [
+        "frontend/src/components/site/sections/ProductsSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-16"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-replace-the-illustrated-hero-side-image-in-frontend-src-components-site-sections-herosection-tsx-currently-assets-generated-spice-illustration-assorted-dim-800x600-png-with-a-real-photographic-spices-image-asset-in-assets-generated-while-keeping-the-existing-layout-and-styling-intact",
+      "featureTitle": "Replace the illustrated hero-side image in frontend/src/components/site/sections/HeroSection.tsx (currently /assets/generated/spice-illustration-assorted.dim_800x600.png) with a real (photographic) spices image asset in /assets/generated while keeping the existing layout and styling intact.",
+      "files": [
+        "frontend/src/components/site/sections/HeroSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-17"
+      ],
+      "confidence": "high"
+    }
+  ]
+}
